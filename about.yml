@@ -1,0 +1,10 @@
+---
+name: Dmitriy Kozhevnikov # ваше имя
+job: QA Engineer
+level: junior
+email: honeybadgeer@mail.ru
+description: |
+
+skills: # список навыков в виде списка, напишите что-то свое
+  - функциональное тестирование
+  - написание багрепортов
