@@ -17,66 +17,66 @@ test-cases:
     status: pass
     
   - summary: |
-    Просмотр товаров и подробной информации о товаре на странице интернет-магазина
-  status: pass
+      Просмотр товаров и подробной информации о товаре на странице интернет-магазина
+    status: pass
   
   - summary: |
-    Добавление и просмотр товаров в корзине
-  status: pass
+      Добавление и просмотр товаров в корзине
+    status: pass
   
   - summary: |
-    Наличие мобильной версии сайта
-  status: pass
+      Наличие мобильной версии сайта
+    status: pass
   
   - summary: |
-    Безопасность и защита данных пользователя
-  status: pass
+      Безопасность и защита данных пользователя
+    status: pass
   
   - summary: |
-    Тестирование на совместимость с последними версиями браузеров
-  status: fail
+      Тестирование на совместимость с последними версиями браузеров
+    status: fail
+   
+  - summary: |
+      Доступность сайта на различных устройствах
+    status: pass
   
   - summary: |
-    Доступность сайта на различных устройствах
-  status: pass
+      Выбор фото товара во вкладке подробного описания товара
+    status: pass
   
   - summary: |
-    Выбор фото товара во вкладке подробного описания товара
-  status: pass
+      Возврат на главную страницу при нажатии на лого магазина
+    status: pass
   
   - summary: |
-    Возврат на главную страницу при нажатии на лого магазина
-  status: pass
-  
-  - summary: |
-    Должен быть выбор страницы магазина в каталоге товаров.
-  status: fail
+      Должен быть выбор страницы магазина в каталоге товаров.
+    status: fail
     
 bugreports:
  - summary: |
       Пропадают кнопки перелистывания страницы
-    environment: |
+      environment: |
       Версия 111.0.5563.147 (Официальная сборка), (64 бит)
       Windows 10 Домашняя
-    steps-to-reproduce: |
+      steps-to-reproduce: |
       перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       нажать на вкладку "Category" и выбрать любую из списка 
-    expected-result: |
+      expected-result: |
       интерфейс страницы магазина не должен измениться
-    actual-result: |
+      actual-result: |
       пропала кнопка "next" для перелистывания страницы
      
  - summary: |
       Не выравнены кнопки "Delete" в корзине
-    environment: |
+      environment: |
       Версия 111.0.5563.147 (Официальная сборка), (64 бит)
       Windows 10 Домашняя
-    steps-to-reproduce: |
+      steps-to-reproduce: |
       перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       добавить несколько товаров в корзину кликнув на кнопку "Add to cart" на каждом из них
       перейти в корзину нажав на кнопку "Cart" в правом верхнем углу
-    expected-result: |
+      expected-result: |
       столбцы с кнопками "Delete" должны быть выровнены
-    actual-result: |
+      actual-result: |
       столбцы с кнопками "Delete" съехали
       Ошибка изображена на скриншоте 456.jpg
