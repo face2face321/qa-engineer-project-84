@@ -53,30 +53,30 @@ test-cases:
     status: fail
     
 bugreports:
- - summary: |
-      Пропадают кнопки перелистывания страницы
-      environment: |
+  - summary: |
+     Пропадают кнопки перелистывания страницы
+    environment: |
       Версия 111.0.5563.147 (Официальная сборка), (64 бит)
       Windows 10 Домашняя
-      steps-to-reproduce: |
-      перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      нажать на вкладку "Category" и выбрать любую из списка 
-      expected-result: |
+    steps-to-reproduce: |
+      1. перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. нажать на вкладку "Category" и выбрать любую из списка 
+    expected-result: |
       интерфейс страницы магазина не должен измениться
-      actual-result: |
+    actual-result: |
       пропала кнопка "next" для перелистывания страницы
      
- - summary: |
+  - summary: |
       Не выравнены кнопки "Delete" в корзине
-      environment: |
+    environment: |
       Версия 111.0.5563.147 (Официальная сборка), (64 бит)
       Windows 10 Домашняя
-      steps-to-reproduce: |
-      перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      добавить несколько товаров в корзину кликнув на кнопку "Add to cart" на каждом из них
-      перейти в корзину нажав на кнопку "Cart" в правом верхнем углу
-      expected-result: |
+    steps-to-reproduce: |
+      1. перейти на страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. добавить несколько товаров в корзину кликнув на кнопку "Add to cart" на каждом из них
+      3. перейти в корзину нажав на кнопку "Cart" в правом верхнем углу
+    expected-result: |
       столбцы с кнопками "Delete" должны быть выровнены
-      actual-result: |
+    actual-result: |
       столбцы с кнопками "Delete" съехали
       Ошибка изображена на скриншоте 456.jpg
